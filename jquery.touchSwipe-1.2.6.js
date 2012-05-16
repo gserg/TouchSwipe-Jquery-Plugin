@@ -241,7 +241,6 @@
 							touchCancel(event); // reset the variables
 						}
 					}
-					/** @todo clear 'if..else' statement */
 				} else {
 					phase = PHASE_CANCEL;
 					triggerHandler(event, phase);
@@ -288,7 +287,6 @@
 						triggerHandler(event, phase);
 						touchCancel(event);
 					}
-					/** @todo clear 'if..else' statement */
 				} else if (phase === PHASE_MOVE) {
 					phase = PHASE_CANCEL;
 					triggerHandler(event, phase);
